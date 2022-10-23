@@ -1,0 +1,147 @@
+body {
+    background-image: url(imagens/montanhas.jpeg); /*imagem de fundo*/
+    background-repeat: no-repeat; /*não repete a imagem*/
+    background-size: cover; /*utiliza a imagem da melhor maneira*/
+    background-position: center; /*centraliza a imagem*/
+}
+
+li {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+   background-image: url(imagens/cinza.jpg); /* cor de fundo */
+   opacity: 09.;
+   padding: 20px; /* margem */
+   border-radius: 10px; /* arredondamento de borda */
+   min-width: 280px; /* tamanho mínimo considerando os paddings de 10px */
+   max-width: 800px; /* tamanho máximo */
+   margin: auto; /* margem automática para centralizar o conteúdo*/
+
+}
+
+img { 
+    width: 100%; 
+   }
+   
+h1 {
+    text-align: center;
+   }
+
+p {
+    text-align: center;
+    margin: 30px;
+   }
+
+
+/* Tabela */
+table, th, td { /*Bordas*/
+    border: 1px solid #000; /*Determina borda preta de 1px ao redor da tabela e células*/
+    border-collapse: collapse; /*retira os espaços entre as bordas*/
+}
+
+th, td { /*Espaçamento*/
+    padding: 5px 10px; /*determina espaço entre borda e conteúdo 1ºsup/inf 2ºesquerda/direita*/
+    height: 30px; /*altura das células*/
+    vertical-align: middle; /*Alinhamento do texto na célula*/
+    text-align: center; /*alinha no centro*/
+}
+
+th { /*Cor de fundo do cabeçalho*/
+    background-color: #0b3250;
+    color: #fff; /*cor do texto*/
+
+}
+
+table tr:nth-child(odd) { /*do elemento table pega todas as linhas 'tr' e aplica propriedade a todos os elementos ímpares*/
+    background-color: #ddd;
+}
+
+table tr:nth-child(even) { /*do elemento table pega todas as linhas 'tr' e aplica propriedade a todos os elementos pares*/
+    background-color: #fff;
+}
+
+
+
+/*Lista*/
+.sem-estilo { 
+    list-style: square; /*bullets*/
+    padding: 20px; /*determina o espaçamento lateral*/
+    text-align: left;
+    color: #000;
+}
+
+/*Rodapé*/
+.footer {
+    text-align: center;
+    color: #000;
+}
+
+/*Hiperlinks*/
+.Hiperlinks{
+    text-align: center;
+    padding: 15px;
+}
+
+a.L1{ /*seletor específico para link com a classe L1*/
+    background-color: #0b3250; /*cor de fundo do botão*/
+    color: #fff; /*cor do texto do botão*/
+    padding: 5px; /*distância do conteúdo em relação às bordas*/
+    text-decoration: none; /*decoração do texto*/
+    border: 1px solid rgb(9, 214, 214); /*cor da borda*/
+    border-radius: 5px; /*borda arredondada*/
+    
+}
+a.L1:hover{ /*seletor específico para link com a classe L1 e quando o mouse passar sobre*/
+    background-color: #46a1e7; /*cor de fundo quando o mouse está em cima do botão*/
+    color: #fff; /*cor do texto do botão*/
+    padding: 6px; /*distância do conteúdo em relação às bordas*/
+    text-decoration: none; /*decoração do texto*/
+    border: 1px solid rgb(0, 11, 11); /*cor da borda*/
+    border-radius: 5px; /*borda arredondada*/
+    cursor: none; /*remove o cursor quando em cima do link*/
+    
+}
+
+a.L2{ /*seletor específico para link com a classe L2*/
+    background-color: #0b3250; /*cor de fundo do botão*/
+    color: #fff; /*cor do texto do botão*/
+    padding: 5px; /*distância do conteúdo em relação às bordas*/
+    text-decoration: none; /*decoração do texto*/
+    border: 1px solid rgb(9, 214, 214); /*cor da borda*/
+    border-radius: 5px; /*borda arredondada*/
+
+    
+}
+a.L2:hover{ /*seletor específico para link com a classe L2 e quando o mouse passar sobre*/
+    background-color: #46a1e7; /*cor de fundo quando o mouse está em cima do botão*/
+    color: #fff; /*cor do texto do botão*/
+    padding: 6px; /*distância do conteúdo em relação às bordas*/
+    text-decoration: none; /*decoração do texto*/
+    border: 1px solid rgb(0, 11, 11); /*cor da borda*/
+    border-radius: 5px; /*borda arredondada*/
+    cursor: none; /*remove o cursor quando em cima do link*/
+    
+}
+
+a.L3{ /*seletor específico para link com a classe L3*/
+    background-color: #0b3250; /*cor de fundo do botão*/
+    color: #fff; /*cor do texto do botão*/
+    padding: 5px; /*distância do conteúdo em relação às bordas*/
+    text-decoration: none; /*decoração do texto*/
+    border: 1px solid rgb(9, 214, 214); /*cor da borda*/
+    border-radius: 5px; /*borda arredondada*/
+    
+}
+a.L3:hover{ /*seletor específico para link com a classe L3 e quando o mouse passar sobre*/
+    background-color: #46a1e7; /*cor de fundo quando o mouse está em cima do botão*/
+    color: #fff; /*cor do texto do botão*/
+    padding: 6px; /*distância do conteúdo em relação às bordas*/
+    text-decoration: none; /*decoração do texto*/
+    border: 1px solid rgb(0, 11, 11); /*cor da borda*/
+    border-radius: 5px; /*borda arredondada*/
+    cursor: none; /*remove o cursor quando em cima do link*/
+    
+}
+
