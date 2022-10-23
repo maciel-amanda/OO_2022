@@ -1,5 +1,5 @@
 body {
-    background-image: url(../imagens/montanhas.jpeg); /*imagem de fundo*/
+    background-image: url(Imagens/montanhas.jpeg); /*imagem de fundo*/
     background-repeat: no-repeat; /*não repete a imagem*/
     background-size: cover; /*utiliza a imagem da melhor maneira*/
     background-position: center; /*centraliza a imagem*/
