@@ -1,5 +1,5 @@
 body {
-    background-image: url(../Imagens/montanhas.jpeg); /*imagem de fundo*/
+    background-image: url(Imagens/montanhas.jpeg); /*imagem de fundo*/
     background-repeat: no-repeat; /*não repete a imagem*/
     background-size: cover; /*utiliza a imagem da melhor maneira*/
     background-position: center; /*centraliza a imagem*/
@@ -11,7 +11,7 @@ li {
 }
 
 main {
-   background-image: url(imagens/cinza.jpg); /* cor de fundo */
+   background-image: url(Imagens/cinza.jpg); /* cor de fundo */
    opacity: 09.;
    padding: 20px; /* margem */
    border-radius: 10px; /* arredondamento de borda */
